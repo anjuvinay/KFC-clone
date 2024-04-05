@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-color: rgb(219, 214, 214);   
+}
+.location-container {
+    display: flex;
+    align-items: center; 
+    margin-left: 20px; 
+}
+.location{
+    margin-left: 412px;
+    height: 18px;
+    width: 13px;
+    padding-top: 5px; 
+}
+.loctext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5px;
+    color: #202124;
+    font-family: "National 2 Regular";
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 600px;
+    align-items: center;
+    display: flex;
+}
+.headerbutton{
+    background-color: black;
+    height: 35px;
+    font-size: 12px;
+    width: 99px;
+    font-family: "National2-Medium";
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 23px;
+    padding: 5px 9px;
+    margin-left: 23px;
+    color:white;
+    font-weight: 700px;
+    border-radius: 20px;
+}
+.head{
+    border: 1px solid;
+    border-color: rgb(219, 214, 214);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.head1{ 
+    width: 35%;
+    height: 100px;   
+}
+.logo{
+    height: 23px;
+    width: 76px;
+    margin-left: 130px;
+    margin-top: 37px;
+}
+.menu{
+    margin-left: 250px;
+    margin-top: -22px; 
+    font-size: 13px;
+    font-weight: 700;
+}
+.deals{
+    margin-left: 327px;
+    margin-top: -15px;  
+    font-size: 13px;
+    font-weight: 700;
+}
+.head2{
+    width: 32%;
+    height: 100px;
+}
+.head3{
+    width: 33%;
+    height: 100px;
+}
+.account{
+    margin-left: 123px;
+    margin-top: 39px;
+}
+.signin{
+    margin-left: 157px;
+    margin-top: -23px;
+    font-weight: bolder;
+    font-size: 14px;  
+}
+.bucket{
+    height: 50px;
+    width: 50px;
+    margin-left: 255px;
+    margin-top: -30px;
+}
+.bannerhead{
+    height: 67px;
+    width: 100%;
+    background-color: #202124;
+    align-items: center;
+    display: flex;  
+}
+.banner_head_text{
+    font-size: 14px;
+    line-height: 62px;
+    letter-spacing: -0.25px;
+    margin-top: unset;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto 15px auto auto;
+    margin-left: 435px;    
+}
+.startorder_button{
+    background-color: #e4002b;
+    width: 10.5rem;
+    height: 2.75rem;
+    padding: 0 2.5rem;
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: 1rem;
+    line-height: 2.75rem;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    display: inline-flex;
+    color:white; 
+    margin-left: 10px;
+}
+.banner{
+    height: 475px;
+}
+.browse{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700 bolder;
+    letter-spacing: -1.5px;
+    margin-left: 162px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-family: monospace;
+    font-size: 32px;
+}
+.line{
+    width: 59%;
+    margin-left: 330px;
+    margin-top: -10px;
+    color: rgb(219, 214, 214);
+}
+.categories{
+    height: 600px;
+    width: 100%;
+    padding-top: 60px;
+    display: grid  
+}
+.sub_category{
+    height: 240px;
+    width: 88.2%;
+    margin-left:140px ;
+    display: flex; 
+}
+.sub_category1{
+    height: 240px;
+    width: 88.2%;
+    margin-left:140px ;
+    display: flex;
+    margin-top: -82px;
+}
+.peri{
+    height: 180px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: -4px;
+}
+.name{
+    height: 40px;
+    width:250px;
+    /* background-color: rgb(247, 242, 242); */
+    background-color:#f8f7f5;
+    margin-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -.5px;    
+}
+.caption{
+    height: 180px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: -4px;
+    background-color:#f8f7f5;
+}
+.cap{
+    height: 120px;
+    width: 180px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.name1{
+    height: 40px;
+    width:250px;
+    background-color: #f8f7f5;
+    margin-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -.5px;   
+}
+.footer{
+    height: 700px;
+    width: 100%;
+    background-color: #202124;
+}
+.red_rectangle{
+    height: 80px;
+    width:100%;
+}
+.footer_heading{
+    height: 88px;
+    width:100%;
+}
+.offer_text{
+    color: #fff;
+    line-height: 24px;
+    font-family: monospace;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 32px;
+    word-spacing: -7.5px;
+    margin-left: 200px;
+}
+.path_text{
+    color: #fff;
+    font-weight: 10px;
+    margin-left:1090px ;
+    margin-top: -46px;
+    font-size: 15px;
+}
+.arrow1{
+    color: #fff;
+    margin-left:1195px ;
+    margin-top: -26px;
+}
+.arrow2{
+    color: #fff;
+    margin-left:1216px ;
+    margin-top: -10px;
+}
+.advertisements{
+    height:450px;
+    width: 100%;
+}
+.adv_sub{
+    height: 400px;
+    width: 86.3%;
+    margin-left:160px ;
+    display: flex;
+}
+.pic{
+    height: 240px;
+    width: 310px;
+    margin-left: 35px;
+    margin-bottom: -4px; 
+}
+.description{
+    height: 163px;
+    width:310px;
+    background-color:#f8f7f5;
+    margin-left: 35px;
+    padding-top: 1px;
+    margin-top: -3px;
+
+}
+.red_font{
+    color: #e4002b;
+    text-align: center;
+    letter-spacing:-2px ;
+    line-height: 2px;  
+}
+.offer_details{
+    font-family: "National 2 Regular";
+    font-weight: 400;
+    font-size: 15px;
+    color: #202124;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.view_details{
+    color: #494949;
+    font-size: 13px;
+    line-height: 22px;
+    text-decoration: underline;
+    font-weight: 500;
+    padding-top: 18px;
+    margin-left: 17px;
+}
+.coupon_button{
+    background-color:transparent;
+    width: 11.5rem;
+    height: 2.75rem;
+    padding: 0 2.5rem;
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: 15px;
+    line-height: 2.75rem;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    display: inline-flex;
+    color: #27282b; 
+    margin-left: 17px;
+    border-color: #303133;
+    border: 1px solid;
+    margin-top: 13px;
+}
+.end_line{
+    width: 100%;
+    height: 210px;
+    background-color:#202124 ;
+}
+.ending_line{
+    width: 70%;
+    margin-left: 190px;
+    color: rgb(141, 137, 137);
+    margin-top: 40px;
+}
+.final_header{
+    height: 290px;
+    width: 100%;
+    background-color: #202124;
+}
+.titles{
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+.box1{
+    height: 170px;
+    width:250px;
+}
+.kfc_logo{
+    margin-left: 103px;
+}
+.box2{
+    height: 170px;
+    width:150px;
+    display: grid;
+}
+.footer_font{
+    color: #fff;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.box3{
+    height: 170px;
+    width:115px;
+    display: grid;
+}
+.box4{
+    height: 170px;
+    width:138px;
+    display: grid;  
+}
+.box5{
+    height: 170px;
+    width:147px;
+    display: grid;  
+}
+.box6{
+    height: 170px;
+    width:165px;
+    display: flex;  
+}
+.loc_img{
+    height: 20px;
+    width: 15px;
+    padding-top: 2px;
+}
+.box7{
+    height: 170px;
+    width:150px;
+}
+.google_play{
+    height: 50px;
+    width: 120px;
+}
+.footer_end{
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+.Copyright{
+    font-family: "National 2 Regular";
+    font-size: 12px;
+    text-align: center;
+    opacity: .9;
+    line-height: 12px;
+    color: #dbdbdb;
+    margin-left: 460px;
+    padding-top: 80px;
+}
+.insta{
+    border-color: #fff;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding-top:70px;
+    margin-left:385px; 
+}
+.facebook{
+    border-color: #fff;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding-top:70px;
+    margin-left:5px; 
+}
