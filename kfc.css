@@ -48,6 +48,7 @@ body{
     color:white;
     font-weight: 700px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .head{
     border: 1px solid;
@@ -59,7 +60,8 @@ body{
 }
 .head1{ 
     width: 35%;
-    height: 100px;   
+    height: 100px;  
+    cursor: pointer; 
 }
 .logo{
     height: 23px;
@@ -86,6 +88,7 @@ body{
 .head3{
     width: 33%;
     height: 100px;
+    cursor: pointer;
 }
 .account{
     margin-left: 123px;
@@ -139,9 +142,11 @@ body{
     display: inline-flex;
     color:white; 
     margin-left: 10px;
+    cursor: pointer;
 }
 .banner{
     height: 475px;
+    cursor: pointer;
 }
 .browse{
     text-transform: uppercase;
@@ -185,11 +190,11 @@ body{
     width: 250px;
     margin-left: 20px;
     margin-bottom: -4px;
+    cursor: pointer;
 }
 .name{
     height: 40px;
     width:250px;
-    /* background-color: rgb(247, 242, 242); */
     background-color:#f8f7f5;
     margin-left: 20px;
     padding-top: 20px;
@@ -200,6 +205,7 @@ body{
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -.5px;    
+    cursor: pointer;
 }
 .caption{
     height: 180px;
@@ -213,6 +219,7 @@ body{
     width: 180px;
     padding-top: 30px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .name1{
     height: 40px;
@@ -227,6 +234,7 @@ body{
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -.5px;   
+    cursor: pointer;
 }
 .footer{
     height: 700px;
@@ -258,6 +266,7 @@ body{
     margin-left:1090px ;
     margin-top: -46px;
     font-size: 15px;
+    cursor: pointer;
 }
 .arrow1{
     color: #fff;
@@ -343,6 +352,7 @@ body{
     width: 100%;
     height: 210px;
     background-color:#202124 ;
+    cursor: pointer;
 }
 .ending_line{
     width: 70%;
@@ -366,6 +376,7 @@ body{
 }
 .kfc_logo{
     margin-left: 103px;
+    cursor: pointer;
 }
 .box2{
     height: 170px;
@@ -379,6 +390,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+    cursor: pointer;
 }
 .box3{
     height: 170px;
@@ -412,6 +424,7 @@ body{
 .google_play{
     height: 50px;
     width: 120px;
+    cursor: pointer;
 }
 .footer_end{
     height: 120px;
