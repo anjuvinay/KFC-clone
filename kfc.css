@@ -144,6 +144,9 @@ body{
     margin-left: 10px;
     cursor: pointer;
 }
+.startorder_button:hover {
+    background-color: #b30024;
+}
 .banner{
     height: 475px;
     cursor: pointer;
