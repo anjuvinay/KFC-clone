@@ -305,14 +305,26 @@ body{
 .adv_sub{
     height: 400px;
     width: 86.3%;
-    margin-left:160px ;
+    margin-left:110px ;
     display: flex;
+}
+.left_icon{
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    background-color: #494949;
+    margin-top: 180px;
 }
 .pic{
     height: 240px;
     width: 310px;
     margin-left: 35px;
     margin-bottom: -4px; 
+}
+.faded{
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+   
 }
 .description{
     height: 163px;
